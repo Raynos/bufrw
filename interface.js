@@ -22,7 +22,7 @@
 
 var hex = require('hexer');
 var util = require('util');
-var Result = require('./result');
+var Result = require('rezult');
 var errors = require('./errors');
 
 var AnnotatedBuffer = require('./annotated_buffer');

@@ -21,6 +21,7 @@
     "error": "^6.2.0",
     "hexer": "^1.4.3",
     "readable-stream": "1.0.33",
+    "rezult": "^1.0.0",
     "xtend": "^4.0.0"
   },
   "devDependencies": {
