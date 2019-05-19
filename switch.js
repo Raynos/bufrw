@@ -46,7 +46,7 @@ function SwitchRW(valrw, cases, opts) {
         self.readFrom = self.structReadFrom;
     }
 }
-inherits(BufferRW, BufferRW);
+inherits(SwitchRW, BufferRW);
 
 SwitchRW.prototype.byteLength = function byteLength(obj) {
     var self = this;
